@@ -1,0 +1,82 @@
+import java.util.Scanner;
+public class tema{
+
+    public static void main(String args[]){
+Scanner t=new Scanner (System.in);
+int n=t.nextInt();
+int i=2;
+do{
+    System.out.println(i);
+    i+=2;
+    }
+    while(i<=n);
+
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import java.util.Scanner;
+public class tema{
+public static void main(String args[]){
+Scanner t=new Scanner (System.in);
+int n=t.nextInt();
+double i=1;
+double y=0;
+
+do{
+    int u=(int)Math.pow(i,2.0);
+    s=s+u;
+    i++;
+    }
+    while(i<=n);
+
+System.out.println(s);
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+import java.util.Scanner;
+public class tema{
+
+    public static void main(String args[]){
+int i=1;
+while(i<=5){
+    int c=1;
+    while(c<=i){
+     System.out.printf("5%d",c);
+     c++;
+        
+        
+    }
+    i++;
+    System.out.println("\n");
+    
+}
+
+    
+}
+}
