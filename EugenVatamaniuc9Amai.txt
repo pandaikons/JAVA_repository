@@ -1,0 +1,78 @@
+1.
+
+import java.util.Scanner;
+public class tema{
+
+    public static void main(String args[]){
+	Scanner tastatura = new Scanner(System.in);
+        
+        int S =0;
+        int i =0;
+        
+        while(sum < 1000) {
+            int a = tastatura.nextInt();
+            S += a;
+            i++;
+        }
+        
+        System.out.println(S/ i);
+}
+
+}
+
+
+
+3.
+
+import java.util.Scanner;
+public class tema{
+
+    public static void main(String args[]){
+		Scanner t = new Scanner(System.in);
+        
+        int n = t.nextInt();
+        int S1 = 0;
+        int S2 = 0;
+        
+        for(int i  = 1; i < n; i++) {
+            S1 += i*i*i;
+            S2 += i;
+        }
+        S2 = S2 * S2;
+        
+        if(S1 > S2) {
+            System.out.println("S1");
+        }else {
+            System.out.println("S2");
+        }
+
+}
+}
+
+2.
+import java.util.Scanner;
+
+public class project{
+
+    public static void main(String args[]){
+
+ Scanner scan = new Scanner(System.in);
+     
+int i = 5;
+    
+        
+        while(i > 0) {
+            int t = i;
+            while(t > 0) {
+                System.out.print(i + " ");
+                t--;
+            }
+            System.out.println("");
+            i--;
+        }
+
+      
+    }
+}
+
+
