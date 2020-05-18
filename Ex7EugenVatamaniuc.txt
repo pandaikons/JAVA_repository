@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class tema{
+
+    public static void main(String args[]){
+		
+	
+  Scanner tastatura=new Scanner(System.in);
+  int n=tastatura.nextInt();
+  int S=0;
+  int P=1;
+        for (int i=1; i<=n; i++) {
+			
+		S=S+(2*i-1);
+		P=P*(2*i-1);
+		
+			/*
+			S=S+(2*i);
+			P=P*(2*i);
+			
+			S=S+(3*i);
+			P=P*3*1;
+			
+			S=S+(4*i);
+			P=P*4*i
+			*/
+			}
+			System.out.println(S + "si" + P);
+		}
+}
